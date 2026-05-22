@@ -1,0 +1,13 @@
+{
+  "system_config": {
+    "version": "4.2.1-build",
+    "environment": "production",
+    "cluster_node_id": "NODE-CLUSTER-99X",
+    "enable_encryption": true
+  },
+  "network_matrix": {
+    "api_gateway_port": 8080,
+    "max_connections_allowed": 50000,
+    "allowed_protocols": ["HTTPS", "WSS"]
+  }
+}
