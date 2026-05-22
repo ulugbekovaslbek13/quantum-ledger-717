@@ -1,0 +1,9 @@
+/* Full-Stack Structural Workspace Layout Sheet Configuration */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+body { background-color: #0b0f19; color: #f3f4f6; }
+#wrapper { display: flex; min-height: 100vh; }
+.sidebar { width: 280px; background-color: #111827; padding: 25px; border-right: 1px solid #1f2937; }
+.sidebar .logo { font-size: 22px; font-weight: 700; color: #3b82f6; }
+.main-content { flex: 1; padding: 35px; background: #0f172a; }
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; }
+.card { background: #1e293b; padding: 25px; border-radius: 12px; border-left: 5px solid #10b981; }
